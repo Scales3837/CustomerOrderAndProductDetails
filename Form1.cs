@@ -99,6 +99,7 @@ namespace WindowsFormsApp2
             dataGridView1.Visible = false;
             pd.Visible = false;
             dataGridView3.Visible = false;
+            MessageBox.Show("All the data has been cleared!");
         }
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
