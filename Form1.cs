@@ -99,7 +99,7 @@ namespace WindowsFormsApp2
             dataGridView1.Visible = false;
             pd.Visible = false;
             dataGridView3.Visible = false;
-            MessageBox.Show("All the data has been cleared!");
+            MessageBox.Show("All the data has been cleared!", "Success!");
         }
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -127,6 +127,11 @@ namespace WindowsFormsApp2
                     dataGridView3.Visible = false;
                 }
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
